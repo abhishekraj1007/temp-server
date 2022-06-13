@@ -162,7 +162,7 @@ const COMPANIES = [
 ];
 
 app.get('/', (req ,res) => {
-  res.status(200).send('Working...')
+  res.status(200).send('success...')
 })
 
 // get list of all the users that we currwntly have
