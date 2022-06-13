@@ -161,6 +161,10 @@ const COMPANIES = [
   { id: "4", name: "Facebook", description: "Social Media" },
 ];
 
+app.get('/', (req ,res) => {
+  res.status(200).send('Working...')
+})
+
 // get list of all the users that we currwntly have
 app.get("/users", (req, res) => {
   res.status(200).send(USERS);
